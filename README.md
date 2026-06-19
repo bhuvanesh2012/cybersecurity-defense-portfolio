@@ -56,7 +56,7 @@ python personal_firewall/firewall.py
 **Testing the rules actively:**
 While the firewall is running in your Administrator window, open a separate terminal window and simulate a forbidden connection attempt using curl:
 
-**PowerShell**
+**Cmd**
 ```bash
 curl.exe telnet://example.com:23
 ```
