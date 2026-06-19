@@ -22,6 +22,10 @@ To build an automated traffic monitoring script that leverages Supervised Machin
 2. **Ensemble Classifier:** Trains a **Random Forest Classifier** to establish a tight statistical baseline of normal operations vs anomalous behavior.
 3. **Model Serialization:** Saves the trained pipeline into a `.pkl` object file for instant production deployment and inference scoring.
 
-### Running the Project
+### Running the IDS Code
 ```bash
 python intrusion_detection_system/ids_model.py
+```
+### Running the Firewall Code
+```bash
+python personal_firewall/firewall.py
